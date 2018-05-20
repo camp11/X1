@@ -1178,7 +1178,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1526740474/WELCOME',
+  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1526813704/WELCOME',
   'altText' => 'WELCOME Di ROOM EDS',
   'baseSize' => 
   array (
@@ -1214,7 +1214,43 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1526742564/LOGO1',
+  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1526813794/LOGO1',
+  'altText' => 'EXPRESI DUNIA SMULE',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'OFFICIAL' || $command == 'Official' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1526814038/LOGO2',
   'altText' => 'EXPRESI DUNIA SMULE',
   'baseSize' => 
   array (
