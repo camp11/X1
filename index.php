@@ -948,227 +948,126 @@ if($message['type']=='text') {
     }
 }
 //pesan bergambar
-if($message['type']=='text')
-	if ($command == 'admin' || $command == 'Admin' )
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
+if($message['type']=='text') {
+	    if ($command == 'Admin' || $command == 'admin' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
   'type' => 'template',
-  'altText' => 'FIS MANAGEMENT',
+  'altText' => 'MANAGEMENT EDS',
   'template' => 
   array (
-    'type' => 'carousel',
+    'type' => 'image_carousel',
     'columns' => 
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/gDpnMb/20180108_110257.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'FOUNDER',
-        'text' => 'Group Owner -- Name : FahreziLee   Location : Malaysia',
-        'actions' => 
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002642/Admin/20180522_211852.jpg',
+        'action' => 
         array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_Lee',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_FahreziLee',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_LEE',
-          ),
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/EDS_Iyem_SDA',
         ),
       ),
       1 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/gUFu1b/20180108_110910.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'SECRETARY',
-        'text' => 'Admin -- Name : DeeAna       Location : Borneo',
-        'actions' => 
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002621/Admin/20180522_211613.jpg',
+        'action' => 
         array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_DEE',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_Dee',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_Dee',
-          ),
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/S1B_SinchanEDS',
         ),
       ),
       2 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/njD3uw/20180108_111546.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'CREATIVE',
-        'text' => 'Admin -- Name : ALS                 Location : West Java',
-        'actions' => 
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002604/Admin/20180522_212550.jpg',
+        'action' => 
         array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_ALS',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_ALS',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_ALS',
-          ),
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_Engky',
         ),
       ),
       3 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/nxZySG/20180108_111027.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'RESOURCE',
-        'text' => 'Admin -- Name : Lala              Location : Hongkong',
-        'actions' => 
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002611/Admin/20180522_220547.jpg',
+        'action' => 
         array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_LALA',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_LALA',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_LALA',
-          ),
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_RAMA_REM',
         ),
       ),
       4 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/gRYKZw/20180108_111446.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'HOME AS.',
-        'text' => 'Admin -- Name : Alfariz              Location : Jakarta',
-        'actions' => 
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002544/Admin/20180522_220709.jpg',
+        'action' => 
         array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_ALFARIZ',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_Alfariz',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_Alfariz',
-          ),
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_AgNVO_SVC',
         ),
       ),
       5 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/npK41b/20180108_111333.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'HOME AS.',
-        'text' => 'Admin -- Name : Juna Hermanza   Location : West Java',
-        'actions' => 
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002538/Admin/20180522_220930.jpg',
+        'action' => 
         array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_JUNA',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_Juna',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_Juna',
-          ),
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_mardianiayu',
         ),
       ),
       6 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/edtxMb/20180108_111247.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'HOME AS.',
-        'text' => 'Admin -- Name : Anissa              Location : West Java',
-        'actions' => 
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002551/Admin/20180522_221125.jpg',
+        'action' => 
         array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_NISA',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_Nisa',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_Nisa',
-          ),
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/AriFnEDS_SVC_SDA',
+        ),
+      ),
+      7 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002528/Admin/20180522_221317.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_Ndiz',
+        ),
+      ),
+      8 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002527/Admin/20180522_221458.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_ardian_1691',
+        ),
+      ),
+      9 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002564/Admin/20180522_221732.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_sabiiL',
         ),
       ),
     ),
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
   ),
 )
-							)
-						);
-				
-	}
+            )
+        );
+    }
+}
 //pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'Welcome' || $command == 'wc' ) {
