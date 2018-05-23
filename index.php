@@ -1088,8 +1088,8 @@ if($message['type']=='text') {
   array (
     0 => 
     array (
-      'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'type' => 'message',
+      'text' => 'Admin',
       'area' => 
       array (
         'x' => 520,
@@ -1125,7 +1125,7 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'linkUri' => 'https://www.smule.com/EDS_FAMILY',
       'area' => 
       array (
         'x' => 520,
@@ -1161,75 +1161,13 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'linkUri' => 'https://www.smule.com/EDS_FAMILY',
       'area' => 
       array (
         'x' => 520,
         'y' => 0,
         'width' => 520,
         'height' => 1040,
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'Judges' || $command == 'judges' ) {
-
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'template',
-  'altText' => 'JUDGES EVENT FIS',
-  'template' => 
-  array (
-    'type' => 'image_carousel',
-    'columns' => 
-    array (
-      0 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180249/line/EVENT/crew/lee.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/FIS_FahreziLee',
-        ),
-      ),
-      1 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180266/line/EVENT/crew/chika.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/FIS_ChikaLee',
-        ),
-      ),
-      2 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180286/line/EVENT/crew/dewa.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/FIS_DewaBF5_HIVO',
-        ),
-      ),
-      3 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180245/line/EVENT/crew/uni.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/HYT_FIS_FOrTe__',
-        ),
       ),
     ),
   ),
