@@ -955,7 +955,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'MANAGEMENT EDS',
+  'altText' => 'FOUNDER EDS',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -1108,7 +1108,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1526813704/WELCOME',
+  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527200784/WELCOME',
   'altText' => 'WELCOME Di ROOM EDS',
   'baseSize' => 
   array (
