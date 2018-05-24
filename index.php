@@ -949,7 +949,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Admin' || $command == 'admin' ) {
+	    if ($command == 'Founder' || $command == 'fo' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
@@ -971,7 +971,28 @@ if($message['type']=='text') {
           'uri' => 'https://www.smule.com/EDS_Iyem_SDA',
         ),
       ),
-      1 => 
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Admin' || $command == 'admin' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'MANAGEMENT EDS',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002621/Admin/20180522_211613.jpg',
         'action' => 
@@ -981,7 +1002,7 @@ if($message['type']=='text') {
           'uri' => 'https://www.smule.com/S1B_SinchanEDS',
         ),
       ),
-      2 => 
+      1 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002604/Admin/20180522_212550.jpg',
         'action' => 
@@ -991,7 +1012,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/EDS_Engky',
         ),
       ),
-      3 => 
+      2 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002611/Admin/20180522_220547.jpg',
         'action' => 
@@ -1001,7 +1022,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/EDS_RAMA_REM',
         ),
       ),
-      4 => 
+      3 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002544/Admin/20180522_220709.jpg',
         'action' => 
@@ -1011,7 +1032,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/EDS_AgNVO_SVC',
         ),
       ),
-      5 => 
+      4 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002538/Admin/20180522_220930.jpg',
         'action' => 
@@ -1021,7 +1042,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/EDS_mardianiayu',
         ),
       ),
-      6 => 
+      5 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002551/Admin/20180522_221125.jpg',
         'action' => 
@@ -1031,7 +1052,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/AriFnEDS_SVC_SDA',
         ),
       ),
-      7 => 
+      6 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002528/Admin/20180522_221317.jpg',
         'action' => 
@@ -1041,7 +1062,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/EDS_Ndiz',
         ),
       ),
-      8 => 
+      7 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002527/Admin/20180522_221458.jpg',
         'action' => 
@@ -1051,7 +1072,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/EDS_ardian_1691',
         ),
       ),
-      9 => 
+      8 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527172806/Admin/20180524_204840.jpg',
         'action' => 
@@ -1061,7 +1082,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/ArgieNgapak_EDS',
         ),
       ),
-      10 => 
+      9 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002564/Admin/20180522_221732.jpg',
         'action' => 
