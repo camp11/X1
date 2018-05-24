@@ -1120,6 +1120,18 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'message',
+      'text' => 'Founder',
+      'area' => 
+      array (
+        'x' => 0,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+    1 => 
+    array (
+      'type' => 'message',
       'text' => 'Admin',
       'area' => 
       array (
