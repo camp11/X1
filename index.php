@@ -1053,6 +1053,16 @@ if($message['type']=='text') {
       ),
       9 => 
       array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527172806/Admin/20180524_204840.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/ArgieNgapak_EDS',
+        ),
+      ),
+      10 => 
+      array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527002564/Admin/20180522_221732.jpg',
         'action' => 
         array (
