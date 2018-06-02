@@ -227,6 +227,7 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> Eds\n";
     $text .= "> Official\n";
     $text .= "> Admin\n";
+    $text .= "> Creator\n";
     $text .= "> /shalat [namakota]\n";
     $text .= "> /kalender [namakota]\n";
     $text .= "> /qiblat [namakota]\n";
