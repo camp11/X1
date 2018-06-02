@@ -1240,7 +1240,7 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527920386/Creator/20180602_131746.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527926484/Creator/1040.jpg',
         'action' => 
         array (
           'type' => 'uri',
