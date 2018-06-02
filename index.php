@@ -949,27 +949,32 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Founder' || $command == 'fo' ) {
+	    if ($command == 'Founder' || $command == 'Fo' ) {
+
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
-  'type' => 'template',
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527922919/founder',
   'altText' => 'FOUNDER EDS',
-  'template' => 
+  'baseSize' => 
   array (
-    'type' => 'image_carousel',
-    'columns' => 
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
     array (
-      0 => 
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/EDS_Iyem_SDA',
+      'area' => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199520/Admin/1527197208609.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/EDS_Iyem_SDA',
-        ),
+        'x' => 0,
+        'y' => 0,
+        'width' => 1040,
+        'height' => 1040,
       ),
     ),
   ),
