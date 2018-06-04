@@ -227,6 +227,7 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> Eds\n";
     $text .= "> Official\n";
     $text .= "> Admin\n";
+    $text .= "> Member1 [Cinta,Uchan,Magma,Yeny,Andro]\n";
     $text .= "> Creator\n";
     $text .= "> /shalat [namakota]\n";
     $text .= "> /kalender [namakota]\n";
@@ -1247,6 +1248,77 @@ if($message['type']=='text') {
           'type' => 'uri',
           'label' => 'CHAT PM',
           'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Member1' || $command == 'Cinta' || $command == 'Uchan' || $command == 'Magma' || $command == 'Yeny' || $command == 'Andro') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'CREWS EVENT',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/c_scale,w_1040/v1528077850/MEMBER1/20180604_064127.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_CintaAlfa_',
+        ),
+      ),	
+      1 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/c_scale,w_1040/v1528077854/MEMBER1/20180604_063928.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/RTS_UchanEDS__',
+        ),
+      ),
+      2 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/c_scale,w_1040/v1528077858/MEMBER1/20180604_064021.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/9MAGMA_EDS',
+        ),
+      ),
+      3 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/c_scale,w_1040/v1528077859/MEMBER1/20180604_063142.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/drs_YenyEDS_TEVO',
+        ),
+      ),
+      4 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/c_scale,w_1040/v1528077855/MEMBER1/20180604_090133.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/Andro_EDS_',
         ),
       ),
     ),
