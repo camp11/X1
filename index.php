@@ -1265,7 +1265,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'CREWS EVENT',
+  'altText' => 'MEMBER [cinta-uchan-magma-yeny-andro]',
   'template' => 
   array (
     'type' => 'image_carousel',
