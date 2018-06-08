@@ -1071,32 +1071,12 @@ if($message['type']=='text') {
       ),
       7 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199529/Admin/1527197367679.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/EDS_ardian_1691',
-        ),
-      ),
-      8 => 
-      array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199547/Admin/1527197407361.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
           'uri' => 'http://smule.com/ArgieNgapak_EDS',
-        ),
-      ),
-      9 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199547/Admin/1527197386758.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/EDS_sabiiL',
         ),
       ),
     ),
