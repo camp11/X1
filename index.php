@@ -1011,26 +1011,6 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199535/Admin/1527197229995.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/EDS_Engky',
-        ),
-      ),
-      2 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199529/Admin/1527197254292.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/EDS_RAMA_REM',
-        ),
-      ),
-      3 => 
-      array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199528/Admin/1527197281467.jpg',
         'action' => 
         array (
@@ -1039,7 +1019,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/EDS_AgNVO_SVC',
         ),
       ),
-      4 => 
+      2 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199533/Admin/1527197302452.jpg',
         'action' => 
@@ -1049,7 +1029,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/EDS_mardianiayu',
         ),
       ),
-      5 => 
+      3 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199523/Admin/1527197322468.jpg',
         'action' => 
@@ -1059,17 +1039,7 @@ if($message['type']=='text') {
           'uri' => 'http://smule.com/AriFnEDS_SVC_SDA',
         ),
       ),
-      6 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527262368/20180525_221222.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'http://smule.com/EDS_Ndiz',
-        ),
-      ),
-      7 => 
+      4 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199547/Admin/1527197407361.jpg',
         'action' => 
