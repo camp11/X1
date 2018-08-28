@@ -227,7 +227,6 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> Eds\n";
     $text .= "> Official\n";
     $text .= "> Admin\n";
-    $text .= "> Member1 [Cinta,Uchan,Magma,Yeny,Andro]\n";
     $text .= "> Creator\n";
     $text .= "> /shalat [namakota]\n";
     $text .= "> /kalender [namakota]\n";
@@ -1189,6 +1188,111 @@ if($message['type']=='text') {
           'label' => 'CHAT PM',
           'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
         ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Kaget' || $command == 'Ha' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532321762/Stiker/2',
+  'altText' => 'Markiyem mengirim sticker',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'message',
+      'text' => 'Kaget',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Haha' || $command == 'Hahaha' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532322034/Stiker/3',
+  'altText' => 'Markiyem mengirim sticker',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'message',
+      'text' => 'Haha',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Sepi' || $command == 'sepi' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532323952/Stiker/4',
+  'altText' => 'Markiyem mengirim sticker',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'message',
+      'text' => 'Sepi',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
       ),
     ),
   ),
