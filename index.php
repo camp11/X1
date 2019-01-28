@@ -1297,21 +1297,10 @@ if($message['type']=='text') {
 if (isset($balas)) {
     $result = json_encode($balas);
 //$result = ob_get_clean();
+
     file_put_contents('./balasan.json', $result);
-    if ($profileName) {
-        $client->replyMessage($balas);
-	} elseif($type == 'join') {
-	    $client->replyMessage($balas);
-	} else {
-	$balas_gagal = array(
-        'replyToken' => $replyToken,
-        'messages' => array(
-            array(
-                'type' => 'text',
-                'text' => 'Add aku dulu ya kk'
-            )
-        )
-    ); }
-	$client->replyMessage($balas_gagal);
+
+
+    $client->replyMessage($balas);
 }
 ?>
