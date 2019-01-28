@@ -969,7 +969,7 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/EDS_Iyem_SDA',
+      'linkUri' => 'https://www.smule.com/EDS_IyemF2_',
       'area' => 
       array (
         'x' => 0,
@@ -986,10 +986,41 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Admin' || $command == 'admin' ) {
+	    if ($command == 'Staff' || $command == 'Admin' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'MANAGEMENT EDS',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644378/Admin/20190128_094713.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/EDS_Delon_SDA',
+        ),
+      ),
+      1 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644379/Admin/20190128_095026.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/adhiejamz',
+        ),
+      ),
+    ),
+  ),
+),
                 array (
   'type' => 'template',
   'altText' => 'MANAGEMENT EDS',
@@ -1010,12 +1041,12 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199528/Admin/1527197281467.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644381/Admin/20190128_095205.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/EDS_AgNVO_SVC',
+          'uri' => 'http://smule.com/EDSPutri',
         ),
       ),
       2 => 
@@ -1030,12 +1061,32 @@ if($message['type']=='text') {
       ),
       3 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527199547/Admin/1527197407361.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644382/Admin/20190128_095415.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/ArgieNgapak_EDS',
+          'uri' => 'http://smule.com/Badrusida_EDS',
+        ),
+      ),
+      4 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644382/Admin/20190128_095531.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/_EDS_NaNa_',
+        ),
+      ),
+      5 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644384/Admin/20190128_095700.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/EDS_Choink_Voice',
         ),
       ),
     ),
