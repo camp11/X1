@@ -950,15 +950,15 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Founder' || $command == 'Fo' ) {
+	    if ($command == 'Owner' || $command == 'owner' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527922919/founder',
-  'altText' => 'FOUNDER EDS',
+  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644861/OWNER%20EDS',
+  'altText' => 'OWNER EDS',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1054,8 +1054,8 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527200784/WELCOME',
-  'altText' => 'WELCOME Di ROOM EDS',
+  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548646286/EC2',
+  'altText' => 'WELCOME To ROOM EDS',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1078,7 +1078,7 @@ if($message['type']=='text') {
     1 => 
     array (
       'type' => 'message',
-      'text' => 'Admin',
+      'text' => 'Staff',
       'area' => 
       array (
         'x' => 520,
@@ -1151,111 +1151,6 @@ if($message['type']=='text') {
     array (
       'type' => 'uri',
       'linkUri' => 'https://www.smule.com/EDS_FAMILY',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'Kaget' || $command == 'Ha' ) {
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532321762/Stiker/2',
-  'altText' => 'Markiyem mengirim sticker',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'message',
-      'text' => 'Kaget',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'Haha' || $command == 'Hahaha' ) {
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532322034/Stiker/3',
-  'altText' => 'Markiyem mengirim sticker',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'message',
-      'text' => 'Haha',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'Sepi' || $command == 'sepi' ) {
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532323952/Stiker/4',
-  'altText' => 'Markiyem mengirim sticker',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'message',
-      'text' => 'Sepi',
       'area' => 
       array (
         'x' => 520,
