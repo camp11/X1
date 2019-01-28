@@ -223,15 +223,13 @@ function qrcode($keyword) {
 if ($type == 'join' || $command == 'Help') {
     $text .= "==[EDS BOT-keywords]==";
     $text .= "> \n";
-    $text .= "> welcome\n"; 
+    $text .= "> Welcome\n"; 
     $text .= "> Eds\n";
     $text .= "> Official\n";
-    $text .= "> Admin\n";
-    $text .= "> Creator\n";
-    $text .= "> /shalat [namakota]\n";
-    $text .= "> /kalender [namakota]\n";
-    $text .= "> /qiblat [namakota]\n";
-    $text .= "> /convert [link yt] ->download lagu\n";
+    $text .= "> Staff\n";
+    $text .= "> Owner\n";
+    $text .= "> haha\n";
+    $text .= "> ha\n";
     $text .= "> /myinfo\n";
     $balas = array(
         'replyToken' => $replyToken,
