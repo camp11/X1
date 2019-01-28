@@ -1167,6 +1167,68 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
+	    if ($command == 'ha' || $command == 'Ha' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'Markiyem mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98064001/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'Ha',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Haha' || $command == 'haha' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'Markiyem mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98063989/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'haha',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
 	    if ($command == '/shalat') {
 
         $result = shalat($options);
@@ -1184,10 +1246,21 @@ if($message['type']=='text') {
 if (isset($balas)) {
     $result = json_encode($balas);
 //$result = ob_get_clean();
-
     file_put_contents('./balasan.json', $result);
-
-
-    $client->replyMessage($balas);
+    if ($profileName) {
+        $client->replyMessage($balas);
+	} elseif($type == 'join') {
+	    $client->replyMessage($balas);
+	} else {
+	$balas_gagal = array(
+        'replyToken' => $replyToken,
+        'messages' => array(
+            array(
+                'type' => 'text',
+                'text' => 'ADD dulu dong aku :p'
+            )
+        )
+    ); }
+	$client->replyMessage($balas_gagal);
 }
 ?>
