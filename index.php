@@ -1308,7 +1308,7 @@ if (isset($balas)) {
         'messages' => array(
             array(
                 'type' => 'text',
-                'text' => 'ADD dulu dong aku :p'
+                'text' => 'Add aku dulu ya kk'
             )
         )
     ); }
