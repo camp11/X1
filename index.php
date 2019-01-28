@@ -955,7 +955,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644861/OWNER%20EDS',
+  'baseUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548652503/Admin/OWNER',
   'altText' => 'OWNER EDS',
   'baseSize' => 
   array (
@@ -998,7 +998,7 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644378/Admin/20190128_094713.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548653082/Admin/Admin2/1.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1008,7 +1008,7 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644379/Admin/20190128_095026.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548653079/Admin/Admin2/2.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1039,7 +1039,7 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644381/Admin/20190128_095205.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548653087/Admin/Admin2/3.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1059,7 +1059,7 @@ if($message['type']=='text') {
       ),
       3 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644382/Admin/20190128_095415.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548653101/Admin/Admin2/4.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1069,7 +1069,7 @@ if($message['type']=='text') {
       ),
       4 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644382/Admin/20190128_095531.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548653088/Admin/Admin2/5.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1079,7 +1079,7 @@ if($message['type']=='text') {
       ),
       5 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548644384/Admin/20190128_095700.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1548653084/Admin/Admin2/6.jpg',
         'action' => 
         array (
           'type' => 'uri',
